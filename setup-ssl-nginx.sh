@@ -34,6 +34,6 @@ EOF
 nginx -t && systemctl reload nginx
 
 # Dapatkan SSL
-certbot --nginx -d lusalhi.online --non-interactive --agree-tos -m your@email.com
+certbot --nginx -d lusalhi.online --non-interactive --agree-tos -m mr.lusalhi@gmail.com
 
 echo "✅ HTTPS aktif di https://lusalhi.online"
